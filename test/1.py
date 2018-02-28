@@ -38,6 +38,7 @@ import pymysql.cursors
 
    设置相关属性
 """
+
 connection=pymysql.connect(host='localhost',
                            port=3307,
                            user="root",
@@ -74,6 +75,8 @@ for i in range(1, 10):
 # -*- coding:utf-8 -*-
 import pymysql as MySQLdb
 import os
+import csv
+
 
 
 def createDatabase():
@@ -144,7 +147,6 @@ def executeSQL(sql):
 sql="update hash_info set hash_info.info='Captain's VgHD DVD 21 a0472 to a0501.iso' where hash_info.hash='5302c42cdf439cafa98f048e8367b3ff4829628e'".encode('utf-8')
 print(sql)
 
-#createDatabase()
-insertInfo("4cde5b50a8930315b479931f6872a3db59575366")
-selectAllTable("hash_info")
-selectAllTable("peerIP")
+
+
+

@@ -268,7 +268,7 @@ print(bh.delMin())
 
 print(bh.delMin())
 
-print(bh.delMin())
+print(bh.delMin())F
 
 from pythonds.graphs import Graph
 class Vertex:
