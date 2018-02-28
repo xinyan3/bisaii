@@ -1,0 +1,23 @@
+# -*- coding:utf-8 -*-
+# __author__ = "www.iplaypy.com"
+
+# 普通python函数
+
+
+def func(a, b, c):
+    return a + b + c
+
+
+print(func(1, 2, 3))
+# 返回值为6
+
+# lambda匿名函数
+
+
+def f(a, b, c): return a + b + c
+
+
+print(f(1, 2, 3))
+# 返回结果为6
+foo = [2, 18, 9, 22, 17, 24, 8, 12, 27]
+print filter(lambda x: x % 3 == 0, foo)
